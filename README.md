@@ -2,6 +2,6 @@
 
 #### Writing-READMEs
 
-### [How-to-Use-Git-and-GitHub](https://github.com/mejiaadonay/myComputerScienceCourseNotesIn.md-FileFormat)
+### [How-to-Use-Git-and-GitHub](https://joseescobarmejia.com)
 
 ### Intro-to-HTML-and-CSS
