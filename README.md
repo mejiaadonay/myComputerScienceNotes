@@ -2,6 +2,6 @@
 
 #### Writing-READMEs
 
-### [How-to-Use-Git-and-GitHub](https://joseescobarmejia.com)
+### [How-to-Use-Git-and-GitHub](http://joseescobarmejia.com)
 
 ### Intro-to-HTML-and-CSS
