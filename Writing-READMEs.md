@@ -2,7 +2,8 @@
 
  ***
  
-#### Basic Markdown
+#### [Basic Markdown](https://help.github.com/articles/markdown-basics/)
+***
 
 [Markdown](http://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML for viewing on GitHub.
 
@@ -38,6 +39,115 @@ In the words of Abraham Lincoln:
 In the words of Abraham Lincoln:
 
 > Pardon my french 
+
+##### Styling text
+
+You can make text [**bold**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) or [*italic*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
+
+```
+*This text will be italic*
+**This text will be bold**
+
+```
+Both **bold** and *italic* can use either a `*` or an `_` around the text for styling. This allows you to combine both bold and italic if needed.
+
+```
+**Everyone _must_ attend the meeting at 5 o'clock today.**
+```
+##### Lists
+***
+###### Unordered lists
+
+You can make an [unordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) by preceding list items with either `*` or a `-`.
+
+```
+* Item
+* Item
+* Item
+
+- Item
+- Item
+- Item
+``` 
+##### Ordered lists
+
+You can make an [ordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) by preceding list items with a number.
+
+```
+1. Item 1
+2. Item 2
+3. Item 3
+```
+##### Nested lists
+
+You can create nested lists by indenting list items by two spaces.
+
+```
+1. Item 1
+  1. A corollary to the above item.
+  2. Yet another point to consider.
+2. Item 2
+  * A corollary that does not need to be ordered.
+    * This is indented four spaces, because it's two spaces further than the item above.
+    * You might want to consider making a new list.
+3. Item 3
+```
+### Code formatting
+***
+##### Inline formats
+Use single backticks (  ` ) to format text in a special monospace format. Everything within the backticks appear as-is, with no other special formatting.
+
+```
+Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`. 
+
+```
+##### Multiple lines
+You can use triple backticks( ``` ) to format text as its own distinct block.
+
+```
+Check out this neat program I wrote:
+
+	```
+	x = 0
+	x = 2 + 2
+	what is x
+	```
+```
+
+***
+#### [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
