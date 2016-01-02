@@ -1,7 +1,8 @@
 ### How to use Git and GitHub
 This Notes were taken based on the How to use Git and GitHub course on [Udacity](http://udacity.com).
 ***
-Version Control - easy to save different file version at some point.
+## Lession 1 Notes:
+***
 
 #### Git
 ***
@@ -418,9 +419,22 @@ This is a real error message, but it’s not output by Git. Instead it’s outpu
 **Takeaway** We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
 ***
 
+***
+## Problem Set 1 Notes:
+***
+
+
+
+
 #### Resources:
 ***
-[Become a GitHub Pro](http://blog.udacity.com/2015/06/become-github-pro.html)
+* [Become a GitHub Pro](http://blog.udacity.com/2015/06/become-github-pro.html)
+
+* [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+
+
+
+
 
 
 
