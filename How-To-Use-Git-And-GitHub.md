@@ -420,8 +420,33 @@ This is a real error message, but it’s not output by Git. Instead it’s outpu
 ***
 
 ***
-## Problem Set 1 Notes:
+## Lession 2 Notes:
 ***
+
+#### Repository
+
+**Note:** The content of **Git** is in a hidden file .git </config, /object>
+<br/>**?** Read about Meta data
+<br>
+
+##### How to initialize git an exist repository?
+Run the command `git init` to initialize git in an exist repo or create a new folder or directory and run the command once you have navigate to the directory in the command line.<br/>
+
+working directory
+Staging Area
+Repository
+
+Choosing what changes to commit
+
+If you accidentally add a file to the staging area, you can remove it using `git reset`. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run `git reset lesson_2_reflections.txt` and the file will be removed from the staging area, but it will still be in your working directory.
+
+#### ERRORS
+***
+* fatal: your current branch 'master' does not have any commits yet
+<br/> the above error show up when you have 0 commit in a repo. 
+But nothing is wrong with the repo, don't panic yet lol.
+
+
 
 
 
