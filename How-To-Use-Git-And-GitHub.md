@@ -451,7 +451,19 @@ If you are following along, you should run git checkout master before you commit
 
 #### Branches
 ***
-**master**: Master is the name given to main branche of the repository
+**What is a branch?**<br/>
+a branch is a copy of your repository, and you make one branch when you want to try new feature or do some crazy stuff without messing up the original repository. Branches are really useful for collaboration with other developers.<br/>
+**master**: Master is the name given to main branche of the repository.<br/>
+
+`git branch` command show you all the branches in your repo.<br/>
+`git branch < "new branch name" ">` for example `git branch dev-area`. will create/make a new branch/copy with the name dev-area.<br/>
+
+`git checkout < branch name>` is use to switch btwn branches.
+`git log --gaph --oneline` show you a list or graph of commits in you working branch.<br/>
+
+`git log --graph --oneline branch 1 branch 2` show you a more dealing graph of commits of two brach. And you can compare and see the different commits in two or more branches.
+
+
 
 
 ***
