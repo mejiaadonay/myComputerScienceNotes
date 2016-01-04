@@ -1,6 +1,10 @@
 ### How to use Git and GitHub
 This Notes were taken based on the How to use Git and GitHub course on [Udacity](http://udacity.com).
 ***
+
+`hello`
+
+
 ## Lession 1 Notes:
 ***
 
