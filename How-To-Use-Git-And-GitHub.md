@@ -426,7 +426,7 @@ This is a real error message, but it’s not output by Git. Instead it’s outpu
 #### Repository
 
 **Note:** The content of **Git** is in a hidden file .git </config, /object>
-<br/>**?** Read about Meta data
+<br/>**?** Read about Meta data, git diff --staged, git reset --hard, and  issue tracker IDs.
 <br>
 
 ##### How to initialize git an exist repository?
@@ -436,10 +436,25 @@ working directory
 Staging Area
 Repository
 
+##### git diff `compare working directory VS staging area.`
+##### git diff --staged `compare staging area VS commit 1.`
+##### git diff commit1 commit2 `compare commit 1 area VS commit 2.`
+
+[Udacity Git Commit Message Style Guide](http://udacity.github.io/git-styleguide/).
+
+
 Choosing what changes to commit
 
-If you accidentally add a file to the staging area, you can remove it using `git reset`. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run `git reset lesson_2_reflections.txt` and the file will be removed from the staging area, but it will still be in your working directory.
+If you accidentally add a file to the staging area, you can remove it using `git reset`. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run `git reset lesson_2_reflections.txt` and the file will be removed from the staging area, but it will still be in your working directory.<br/>
 
+If you are following along, you should run git checkout master before you commit. This is because your HEAD is still 'detached' from Lesson 1 when you checked out an old commit, and running this command will fix that. You'll learn more about what this command does later this lesson.
+
+#### Branches
+***
+**master**: Master is the name given to main branche of the repository
+
+
+***
 #### ERRORS
 ***
 * fatal: your current branch 'master' does not have any commits yet
