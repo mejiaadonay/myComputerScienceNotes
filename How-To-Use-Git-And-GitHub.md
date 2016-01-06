@@ -1,4 +1,5 @@
-### How to use Git and GitHub
+<h3 style="color:green;">How to use Git and GitHub</h2>
+
 This Notes were taken based on the How to use Git and GitHub course on [Udacity](http://udacity.com).
 ***
 
@@ -403,7 +404,7 @@ You'll need to close and re-open the terminal before all your changes take effec
     type -> of
     part-> of
     operates -> on
-
+	refers -> to
 #### Git Errors and Warnings Solution
 
 ***
@@ -430,7 +431,7 @@ This is a real error message, but it’s not output by Git. Instead it’s outpu
 #### Repository
 
 **Note:** The content of **Git** is in a hidden file .git </config, /object>
-<br/>**?** Read about Meta data, git diff --staged, git reset --hard, and  issue tracker IDs.
+<br/>**?** Read about Meta data, git diff --staged, git reset --hard, and  issue tracker IDs, Resolving Merge Conflicts, also this command `git log -n 1`. Automatic vs. Manual Merging?.
 <br>
 
 ##### How to initialize git an exist repository?
@@ -463,9 +464,130 @@ a branch is a copy of your repository, and you make one branch when you want to 
 `git branch < "new branch name" ">` for example `git branch dev-area`. will create/make a new branch/copy with the name dev-area.<br/>
 
 `git checkout < branch name>` is use to switch btwn branches.
-`git log --gaph --oneline` show you a list or graph of commits in you working branch.<br/>
+`git log --graph --oneline` show you a list or graph of commits in you working branch.<br/>
 
 `git log --graph --oneline branch 1 branch 2` show you a more dealing graph of commits of two brach. And you can compare and see the different commits in two or more branches.
+
+### Read about
+***
+Detached HEAD Revisited
+***
+
+Combining Simple Files.
+##### merging files.
+**Merging on the Command Line**<br/>
+**A note about git merge**
+
+`git merge` will also include the currently checked-out branch in the merged version. So if you have branch1 checked out, and you run `git merge branch2 branch3`, the merged version will combine branch1 as well as branch2 and branch3. That’s because the branch1 label will update after you make the merge commit, so it’s unlikely that you didn’t want the changes from branch1 included in the merge. For this reason, you should always checkout one of the two branches you’re planning on merging before doing the merge. Which one you should check out depends on which branch label you want to point to the new commit.
+
+Since the checked-out branch is always included in the merge, you may have guessed that when you are merging two branches, you don't need to specify both of them as arguments to `git merge` on the command line. If you want to merge branch2 into branch1, you can simply `git checkout branch1` and then type `git merge branch2`. The only reason to type `git merge branch1 branch2` is if it helps you keep better mental track of which branches you are merging.
+
+Also, since the two branches are merged, the order in which they are typed into the command line does not matter. The key is to remember that `git merge` always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
+
+#### Merge conflict
+
+If you get a message like this
+
+```
+Auto-merging game.js
+CONFLICT (content): Merge conflict in game.js
+Automatic merge failed; fix conflicts and then commit the result.
+```
+then your files were not in the same state as Caroline's when you started the merge. To fix this, complete the following steps:
+
+1. Restore your files to their state before you started the merge by running `git merge --abort`
+
+2. Double check the state of your files. If you run `git log` while the master branch is checked out, you should see Caroline's "Add color" commit as the second-most-recent, and the most recent should be your commit fixing the bullet bug. If you use `git diff` to compare your commit to Caroline's, your commit should introduce the line `this.delayBeforeBullet = 10;` on line 424. The line should be indented to the same level as the line below it using only spaces (no tabs), and the line should have no spaces after it.
+
+3. Once your file is in the correct state, create a new commit with your changes.
+
+4. Try the merge again.
+
+#### Merge conflict (Newline characters between Windows and Unix systems)
+
+Context: Whenever we hit the "Enter" key on the keyboard, we are actually telling the computer to insert an invisible character into our text file to indicate to the computer that there should be a new line. Unix systems adds one character called the "line feed" character or LF or \n while Windows systems adds two characters, "carriage return" and "line feed" or CRLF or \r\n.
+
+Caroline's files have LF because her files were edited on Mac OSX, which uses LF. If a Windows user were to edit Caroline's files, the Windows text editor might convert all LF to CRLF to make editing files possible. When the Windows user merges her file with Caroline's files, a merge conflict will result due to the different LF and CRLF characters.
+
+To fix this, Windows users should set the global autocrlf attribute to true: `git config --global core.autocrlf true`. More information can be found here: https://help.github.com/articles/dealing-with-line-endings/#platform-all
+
+#### Comparing a commit to its parent
+
+The command Caroline mentions to compare a commit to its parent is `git show commit_id`
+
+#### Deleting branches
+run `git branch -d branch_name`
+
+If a branch is deleted and leaves some commits unreachable from existing branches, those commits will continue to be accessible by commit id, until Git’s garbage collection runs. This will happen automatically from time to time, unless you actively turn it off. You can also run this process manually with `git gc`.
+***
+### Update Easy Mode
+
+### Motivation
+
+Master has updated since the easy-mode branch was created. In this case, it has the addition of coins, which you might like to include in the easy-mode branch. In general, it’s very common that if you make a branch, either an experimental branch or to work on a new feature, you want to periodically merge master into that branch. This is because master usually contains the official version of the code, and it’s common to want experimental changes to include all of the changes to master.
+
+### Previous version of the diagram
+Here’s what the history looks like right now. 
+![alt tag](https://lh6.ggpht.com/4Z1H9ULiwr6p2zn8ISqJtlleMX7BFMLAEpXbXEqNoQz4JboVxjdJNN2leARBL6lzPFBTHy-V4WS0XIZccQ=s600#w=1920&h=1080)
+
+### Draw an updated diagram
+
+If you merge master into the easy-mode branch, what will the history look like afterward? Take a minute to draw the new history using whatever method you like best. You might want to use pencil and paper, or create a text file with stars and dashes similar to the output of `git log --graph`, or maybe use an online diagramming tool like gliffy or yUML. Once you’re finished, watch the solution to compare your diagram to Sarah’s.
+
+### Diagramming Tools
+
+* [gliffy](https://www.gliffy.com/)
+* [yUML](http://yuml.me/diagram/activity/draw)
+
+If you have a favorite that we don't have listed here, mention it in a forum post so that others can find it!
+***
+## Lession 3 Notes:
+***
+
+#### Create a GitHub account
+
+In this lesson, you'll be sharing changes on GitHub, so you'll need a GitHub account. If you don't already have one, you can create an account by visiting [github.com](https://github.com/) and clicking "Sign up for GitHub".
+
+When you're asked to choose a plan, you can choose a free plan, since we won't be using any of the paid features in this course.
+
+#### Set up Password Caching
+
+Every time you send changes to GitHub via the command line, you'll need to type your password to prove that you have permission to modify the repository. This can get annoying quickly, so many people like to set up password caching, which will let you type your password once and have it auto-filled on that computer in the future. To do this, follow the instructions [here](https://github.com/). If you're using Windows and you followed our Git installation instructions earlier, you're using msysgit, so you can follow the instructions for msysgit.
+
+#### Keeping Repositories in Sync
+***
+### Copy the HTTPS URL, not the SSH URL!
+
+At 1:29, Caroline copies the URL to the repository. The video mistakenly shows the URL to use if the repository is accessed over SSH. The course assumes that the student will use HTTPS, not SSH. Please click on the `HTTPS` button and copy the URL that shows up for HTTPS. It will begin with `https://` rather than `git@github.com`.
+
+If you are interested in using SSH instead, you can follow the instructions here, but this is not recommended unless you are already familiar with SSH keys.
+
+### Sharing your reflections
+
+We encourage you to be bold in sharing your reflections on GitHub. If you're not happy with any of your responses, the best solution is to update that response in one or more new commits. The previous response will still be visible in the commit history, but updating your perspective over time is part of the learning process! Having a commit history that shows your updating perspective will reflect well on you, not poorly.
+
+That said, if you've written anything in your reflections repository that you are not comfortable sharing, you can checkout the commit before you introduced that change, create a new branch at that point, and commit any other changes you are willing to share to the new branch. Then, by only pushing your new branch, you can keep the changes on your original branch private.
+
+### Make changes on GitHub
+
+Now that you've seen how to create a remote repository and push changes to it, **use the GitHub website** to create a new file for your lesson 3 reflections and add the below question and your thoughts on it.
+
+If you prefer to start from the file lesson_3_reflection_prompts.txt in the Downloadables section, you can download that file, commit it locally, push to GitHub, then add your response **using the GitHub website.**
+
+### Reflect: Using a remote repository
+
+Use the following reflection prompt:
+
+**When would you want to use a remote repository rather than keeping all your work local?**
+
+When you're finished committing your changes, click "Next" to see how to pull those changes to your own computer.
+
+##### Pulling Changes
+***
+`git pull` to pull update from cloud repo in GitHub.<br/>
+`git pull origin master` to specify an branch
+
+
 
 
 
