@@ -1,10 +1,7 @@
-<h3 style="color:green;">How to use Git and GitHub</h2>
+### How to use Git and GitHub
 
 This Notes were taken based on the How to use Git and GitHub course on [Udacity](http://udacity.com).
 ***
-
-`hello`
-
 
 ## Lession 1 Notes:
 ***
@@ -68,6 +65,8 @@ This command is uses for checking out prior commits<br/>
 The command Caroline types to checkout the "Revert controls" commit is<br/>
 `git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6`
 
+`git checkout -b branchName	` create and to switch directly to a new branch.
+The code is like doing `git branch jose` + `git checkout jose`
 
 __Using Git commads__
 
@@ -586,10 +585,22 @@ When you're finished committing your changes, click "Next" to see how to pull th
 ***
 `git pull` to pull update from cloud repo in GitHub.<br/>
 `git pull origin master` to specify an branch
+***
 
+#### Forking a repository
+***
+**Forking** is almost or work similar with cloning. But instead of cloning a repository to your local machine your clone in the same github server using forking. Forking also is useful which contributing to other people.
 
+***
+**Updating Local Copies of Remote Changes**<br/>
 
+```
+							git fetch origen
+git pull origen master =	git merge master origin/master
+```
 
+### Making a Pull Request
+***
 
 
 ***
@@ -600,9 +611,12 @@ When you're finished committing your changes, click "Next" to see how to pull th
 But nothing is wrong with the repo, don't panic yet lol.
 
 
+###Clarifications
 
-
-
+```
+* how fetch works?
+* merging remote changes?
+```
 
 #### Resources:
 ***
@@ -611,7 +625,7 @@ But nothing is wrong with the repo, don't panic yet lol.
 * [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 
-
+ 
 
 
 
