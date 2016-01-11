@@ -602,8 +602,55 @@ git pull origen master =	git merge master origin/master
 
 ### Making a Pull Request
 ***
+Making a pull request 
+	* Collaborating using GitHub 
+	1. Make a new branch
+	2. Make a pull request: the purpuse of a pull request is to ask for cheching a changing that you want to merge to the master branch.
+		Note: When you make a pull request to a contributor or an owner of a repo he o they will be notify by email in addition than GitHub.
+	3. 
+	
+Fork the repository and clone your fork
 
+Now that you've learned how to fork a repository, push changes to your fork, and make a pull request, you’re ready to contribute to the create-your-own-adventure story that you saw at the beginning of the lesson. To do this, first you should fork this repository. Then clone your fork, and make a branch to make your changes in.
 
+Note: You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.
+
+Make a change to the story
+
+Next, you should actually make a change to the story. For instructions on how to do so, please read the README in the create-your-own-adventure repository.
+
+Make a pull request
+
+Next, you should make a pull request containing your changes to the original repository. To do this, click the "pull request" button from your branch like you did before, but this time, leave the original repository as the base.
+
+Ask for your pull request to be merged
+
+You don't have permission to modify this repository, so you'll need someone at Udacity to merge your pull request. Our helpful bot Casey may be able to merge your pull request automatically. To have your pull request automatically merged, you'll need to follow the guidelines in the README of the repository, and in addition you won't be able to delete or modify lines. That restriction on deletions is because Casey doesn't want to merge a request that accidentally deletes part of the story, and she can't tell the difference between an accidental deletion and an intentional modification. To request auto-merging, leave a comment on the pull request containing "@casey-collab". For example "Please review this, @casey-collab". Make sure to leave the comment on the "Conversation" tab of the pull request, not the "Files changed" tab.
+
+There are some valid pull requests that Casey won't be able to merge. For example, she won't accept a pull request that fixes a typo, since that modifies a line. If you'd like to make a pull request Casey can't merge, feel free to do so, and someone from Udacity will merge the pull request if we have time. However, we can't guarantee a response to these pull requests.
+
+If needed, update your pull request
+
+If someone merges your pull request or leaves a comment, GitHub will email you and let you know. If you're asked to make some changes, push those changes to your fork to update the pull request. Make sure you let the reviewer know that they should take another look!
+
+If your pull request would result in a merge conflict, and you're not sure how to resolve it, see the next video for instructions.
+
+NOTE: Upstream is the name use to call the original repo of someone else on the cloud. upstream is the origen of the original repo but since you have your  origin after your cloned the repo you called upstream.
+
+### Merge conflicts in Pull request
+
+1. Add the original repository as a remote in your clone.
+
+	
+		* `get remote add upstream + URL`
+		* `git checkout master`
+		* `get pull upstream master`
+		* `git checkout branchName`
+		* `git merge master + branchName`
+	
+2. Pull the master branch from the original repository.
+3. Merge the master branch into your chanfe brange.
+4. Push your change branch to your fork.
 ***
 #### ERRORS
 ***
@@ -617,6 +664,7 @@ But nothing is wrong with the repo, don't panic yet lol.
 ```
 * how fetch works?
 * merging remote changes?
+
 ```
 
 #### Resources:
