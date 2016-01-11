@@ -6,7 +6,7 @@ This Notes were taken based on the How to use Git and GitHub course on [Udacity]
 ## Lession 1 Notes:
 ***
 
-#### Git
+### Git
 ***
 
 A Version Control System
