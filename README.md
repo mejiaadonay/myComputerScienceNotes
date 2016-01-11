@@ -6,11 +6,12 @@
 ***
 ***
 
-* :octocat:Writing-READMEs
+* :octocat: [Writing-READMEs](https://github.com/mejiaadonay/myComputerScienceCourseNotesIn.md-FileFormat/blob/master/Writing-READMEs.md)
 
-* :octocat: [How-to-Use-Git-and-GitHub](http://joseescobarmejia.com)
+* :octocat: [How-to-Use-Git-and-GitHub](https://github.com/mejiaadonay/myComputerScienceCourseNotesIn.md-FileFormat/blob/master/How-To-Use-Git-And-GitHub.md)
 
-* :octocat: Intro-to-HTML-and-CSS
+* :octocat: [Linux-Command-Line-Basic](https://github.com/mejiaadonay/myComputerScienceCourseNotesIn.md-FileFormat/blob/master/Linux-Command-Line-Basic.md)
+
 ***
 
 
