@@ -35,4 +35,4 @@ There are different kinds of shell commands that work with the terminal in diffe
 #### Lesson 3: The Linux Filesystem
 
 Working with files and directories is a big part of using the shell. In this lesson you'll learn basic commands for interacting with the filesystem.
-***
+***	
