@@ -86,18 +86,26 @@ Open your terminal program. Type this shell command and press Enter:
 
 Then start the VM:
 
-**vagrant up**
+`vagrant up`
 
 
 This will make your system download the Linux OS and start up the virtual machine. Unfortunately, this will take a long time on most network connections. Fortunately, you only have to do it once, and the same Linux OS image will work for later Udacity courses too.
 
 Once it is done:
 
-**vagrant ssh**
+`vagrant ssh`
 
 And you will be logged in to the virtual machine and ready to do the course exercises!
 
  Previous
+ 
+## Instructor Notes
+ 
+The Udacity VM is the official shell for this class, but if your computer already has a Unix* shell you can use it if you prefer.
+
+Caveat: Your computer's own shell may differ from the VM in unanticipated ways, and may not have all the programs installed which the VM provides. The recommended environment is the VM.
+
+* if you're running Linux or Mac OS X for instance
 
 # Lesson 2: Shell Commands
 
