@@ -74,7 +74,7 @@ Vagrant is the software that configures the VM and lets you share files between 
 
 Make a new folder to keep your workspace for this course. You might call it **Shell**, but whatever name you pick is OK. Keep track of what folder you created it in (for instance, **Desktop**).
 
-In the **Downloadables** section of this page, below, you'll find a link to the configuration file, called `Vagrantfile`. Download this file into the new folder you just created.
+In the **Downloadables** section of this page, below, you'll find a link to the configuration file, called [Vagrantfile](https://www.udacity.com/api/nodes/4713348570/supplemental_media/vagrantfile/download). Download this file into the new folder you just created.
 
 ## 6. Run the virtual machine!
 
