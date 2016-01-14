@@ -97,7 +97,56 @@ Once it is done:
 
 And you will be logged in to the virtual machine and ready to do the course exercises!
 
- Previous
+## In the VM or out of the VM?
+
+We've set this course's exercises up to work in the virtual machine (VM) that you set up using the **vagrant** program. If you get logged out of the VM, you may end up typing shell commands in to your regular operating system instead of to the Linux system that we've set up for the course. Some commands won't work, and some files probably won't be where the course expects them to be.
+
+## Getting logged out
+
+If you type the command **exit** into the shell, or if you type **Control-D**, you will see a message like this:
+
+```
+logout  
+Connection to 127.0.0.1 closed.
+```
+
+This just means that you got logged out. After logging out, you won't be in the VM any more.
+
+To get back into the VM, use the command **vagrant ssh**.
+
+**If `vagrant ssh` doesn't work**
+
+If you get a message like this:
+
+```
+VM must be running to open SSH connection. Run `vagrant up`
+to start the virtual machine.
+```
+
+This means that the VM program is not running, for instance because you rebooted your computer. This is just fine and it doesn't mean you've lost any work. Just run `vagrant up` to bring the VM back up, then `vagrant ssh` to log in.
+
+This will not take as long as the first time you ran it, because it won't need to download the Linux OS.
+
+**If `vagrant up` doesn't work**
+
+If you get a message like this:
+
+```
+A Vagrant environment or target machine is required to run this
+command. Run `vagrant init` to create a new Vagrant environment. Or,
+get an ID of a target machine from `vagrant global-status` to run
+this command on. A final option is to change to a directory with a
+Vagrantfile and to try again.
+```
+
+That means that **vagrant** can't find the configuration file you downloaded. Go back to [the instructions](https://www.udacity.com/course/viewer#!/c-ud595/l-4597278561/m-4713348570), check to be sure that you did step 5, and then do step 6 again.
+
+### Multiple terminals
+
+If you open up more than one terminal window, only the one(s) that you ran `vagrant ssh` in will be connected to your Linux OS for this course. The others will be connected to your regular OS.
+
+(It's actually really normal for Linux users to have to carefully keep track of which terminal windows are connected to which machines. Don't panic. Just look for whether "vagrant" appears on the command line.)
+
  
 ## Instructor Notes
  
@@ -106,6 +155,9 @@ The Udacity VM is the official shell for this class, but if your computer alread
 Caveat: Your computer's own shell may differ from the VM in unanticipated ways, and may not have all the programs installed which the VM provides. The recommended environment is the VM.
 
 * if you're running Linux or Mac OS X for instance
+
+**Commands that works.**
+
 
 # Lesson 2: Shell Commands
 
