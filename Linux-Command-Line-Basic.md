@@ -189,6 +189,12 @@ Almost everything in this course will work the same in any of these shell progra
 
 **`history`** display a history of previous commands.
 
+***
+
+**NOTE:** when you type a command in the shell, is similar when you call a function in a program or programming language.
+
+
+
 
 # Lesson 2: Shell Commands
 
