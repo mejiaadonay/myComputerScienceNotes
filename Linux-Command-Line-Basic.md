@@ -169,6 +169,10 @@ Different systems may have different shells installed by default. Most Linux sys
 
 Almost everything in this course will work the same in any of these shell programs. The exception is one of the file matching (globbing) syntaxes at the end of Lesson 3.
 
+### Differency btwn Terminal and Shell
+
+**Terminal**
+
 
 # Lesson 2: Shell Commands
 
