@@ -158,6 +158,10 @@ Caveat: Your computer's own shell may differ from the VM in unanticipated ways, 
 
 **Commands that works.**
 
+`curl` is the command use for download stuff from the we, if you know the URL
+for example `curl + URL`.
+
+
 
 # Lesson 2: Shell Commands
 
