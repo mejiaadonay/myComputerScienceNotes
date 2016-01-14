@@ -169,9 +169,9 @@ Different systems may have different shells installed by default. Most Linux sys
 
 Almost everything in this course will work the same in any of these shell programs. The exception is one of the file matching (globbing) syntaxes at the end of Lesson 3.
 
-### Differency btwn Terminal and Shell
+### The Terminal vs The Shell
 
-**Terminal**
+**Terminal**: is a program that draw text on the window, and allow you to type text on the keyboard, technically is called the Terminal Emulator. The terminal itselt doesn't what to do when you type command/inputs it needs another program to do that, and that is the Shell. When you type in the terminal send the commands/inputs to the Shell and the shell interpret and do the output.
 
 
 # Lesson 2: Shell Commands
