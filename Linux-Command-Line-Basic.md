@@ -161,6 +161,13 @@ Caveat: Your computer's own shell may differ from the VM in unanticipated ways, 
 `curl` is the command use for download stuff from the we, if you know the URL
 for example `curl + URL`.
 
+### Different shells
+
+Unix and Linux programmers over the years have written many different shell programs. You can read more about them on Wikipedia: the original [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell) or **sh**; the [C shell](https://en.wikipedia.org/wiki/C_shell) or **csh**; the [Korn shell](https://en.wikipedia.org/wiki/Korn_shell) or **ksh**; the [Z shell](https://en.wikipedia.org/wiki/Z_shell) or **zsh**; as well as the **bash** shell that this course uses.
+
+Different systems may have different shells installed by default. Most Linux systems, and Mac OS X, default to **bash** for interactive shells. However, the most common default shell for scripting (shell programming) is classic **sh**. BSD Unix systems usually default to **sh** or **ksh**.
+
+Almost everything in this course will work the same in any of these shell programs. The exception is one of the file matching (globbing) syntaxes at the end of Lesson 3.
 
 
 # Lesson 2: Shell Commands
