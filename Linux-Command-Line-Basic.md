@@ -173,6 +173,22 @@ Almost everything in this course will work the same in any of these shell progra
 
 **Terminal**: is a program that draw text on the window, and allow you to type text on the keyboard, technically is called the Terminal Emulator. The terminal itselt doesn't what to do when you type command/inputs it needs another program to do that, and that is the Shell. When you type in the terminal send the commands/inputs to the Shell and the shell interpret and do the output.
 
+**`date`** display the today's day.
+
+**`expr`** make a calculation because the shell can be uses as a big calculator. For example **`expr 2 + 2`** is equal **4**.
+
+**`echo`** is the command to print some thing to the screen for example **echo** + **an argument** like **`echo United States`** will print `United States` to the screen.
+
+**`uname`** print the name of the operating system.
+
+**`hostname`** print the username of the computer.
+
+**`host udacity.com`** print the IP of udacity.com and some information of the website DNS.
+
+**`bash --version or bash -V`** display the version of the program.
+
+**`history`** display a history of previous commands.
+
 
 # Lesson 2: Shell Commands
 
