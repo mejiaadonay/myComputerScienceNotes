@@ -193,6 +193,7 @@ Almost everything in this course will work the same in any of these shell progra
 
 **NOTE:** when you type a command in the shell, is similar when you call a function in a program or programming language.
 
+**What is a Shell Command Anyway** is similar to a function call in a programming language like python, java, and C++. They also have a name and take arguments, but the technic of execution is different. The Shell command can be cosidered to run a separte program and start a new process on your computer, and a normal function in programming is uses to organize a program.
 
 
 
