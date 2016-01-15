@@ -207,6 +207,10 @@ Almost everything in this course will work the same in any of these shell progra
 # Lesson 2: Shell Commands
 
 There are different kinds of shell commands that work with the terminal in different ways. This lesson also covers the use of the Linux manual (manpages) to expand your knowledge of shell commands.
+***
+### Filenames and Contents
+
+**Note:** Read about `.sh` script file extancion and `.pem` for encript key and server file formats.
 
 # Lesson 3: The Linux Filesystem
 
