@@ -214,6 +214,13 @@ There are different kinds of shell commands that work with the terminal in diffe
 
 **`sudo apt-get install unzip`** command to install package in linux server. In order to unzip a zip folder.
 
+**control + r** is reverse-i-search on the terminal which let you search your shell history.
+
+`cat + fileNameOrFilesNames` display the content of the txt file on the terminal.
+
+`wc + file_Name` is a command to anylize files. From left to right **12  393 2483 bivalves.txt** lines, words, bytes and fileName.
+
+
 # Lesson 3: The Linux Filesystem
 
 Working with files and directories is a big part of using the shell. In this lesson you'll learn basic commands for interacting with the filesystem.
