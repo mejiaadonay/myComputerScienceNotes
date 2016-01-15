@@ -220,6 +220,14 @@ There are different kinds of shell commands that work with the terminal in diffe
 
 `wc + file_Name` is a command to anylize files. From left to right **12  393 2483 bivalves.txt** lines, words, bytes and fileName.
 
+### Manual Pages
+
+To get into the manual Pages you **man** + **command_Name**
+
+*	**Name** Name all the commands.
+*	**Synopsis** groud all the option that can be uses.
+*	**Discription** Tell more about the command in general.
+
 
 # Lesson 3: The Linux Filesystem
 
