@@ -212,6 +212,8 @@ There are different kinds of shell commands that work with the terminal in diffe
 
 **Note:** Read about `.sh` script file extancion and `.pem` for encript key and server file formats.
 
+**`sudo apt-get install unzip`** command to install package in linux server. In order to unzip a zip folder.
+
 # Lesson 3: The Linux Filesystem
 
 Working with files and directories is a big part of using the shell. In this lesson you'll learn basic commands for interacting with the filesystem.
