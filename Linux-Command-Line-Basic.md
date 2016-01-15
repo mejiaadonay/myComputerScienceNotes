@@ -196,6 +196,8 @@ Almost everything in this course will work the same in any of these shell progra
 **What is a Shell Command Anyway** is similar to a function call in a programming language like python, java, and C++. They also have a name and take arguments, but the technic of execution is different. The Shell command can be cosidered to run a separte program and start a new process on your computer, and a normal function in programming is uses to organize a program.
 
 ### Commands
+
+**NOTE:** the `'`or some character does a special meaning to the terminal and some times will break like this `>` waiting for more input. To get out when the terminal come to this scenario, you fix it typing the same character that leaded to the stage like resumming `'`. if you want to do something like this `echo jose's house` you need an extract character to void the above problem. The correct way to do it is `echo jose\'s house`.
 ***
 `uptime`:
 
