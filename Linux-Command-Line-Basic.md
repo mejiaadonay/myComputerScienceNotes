@@ -289,17 +289,17 @@ Relative Path example is `stuff` or `/stuff` and the relative path is less time 
 
 `ls *html`
 
-`ls app*`
+`ls app*`will maches only pattern that star with `app`.
 
 `ls *s`
 
-`ls *pp*`
+`ls *pp*` will matches anything that contain a glob pattern `pp`.
 
 `ls b*png`
 
-`ls app.{css, html}`
+`ls app.{css,html}` alternating `ls *css *html` or `ls *{jp,pn}g` there should be space btwn one file extasion and after the colom.
 
-`ls bea?.png`
+`ls bea?.png`question mark matches a ningle character.
 
 `ls be??.png`
 
