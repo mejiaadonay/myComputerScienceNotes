@@ -233,6 +233,8 @@ To get into the manual Pages you **man** + **command_Name**
 `rm` stand for remove and `r` for recursive `f` for force. So `rm -r` will remove all the file withoud asking the user before. `rm -rf`, but `rm -i` will ask the user before deleting every file on you repository. `rmdir` will dilete all empty folders.
 ***
 ### Line Based Programs
+`bc` is  line based simple calculator.
+
 
 
 # Lesson 3: The Linux Filesystem
