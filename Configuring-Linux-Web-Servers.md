@@ -4,9 +4,9 @@
 
 ## Course Summary
 
-In this course you’ll learn the basic Linux fundamentals every web developer needs to know to share their web applications with the world! You’ll get a basic Python WSGI application up and running within a Vagrant virtual machine that queries data from a PostgreSQL database.
+In this course you’ll learn the basic Linux fundamentals every web developer needs to know to share their web applications with the world! You’ll get a basic **Python WSGI** application up and running within a Vagrant virtual machine that queries data from a **PostgreSQL database**.
 
-You’ll start by exploring various Linux distributions and learning the differences between a number of them. You’ll then explore how the Linux operating system differs from other operating systems you may be more familiar with. With this base knowledge, you’ll then move into Linux security - covering topics such as file permissions, user management, package management and configuring firewalls. Finally, you’ll transform a safe and secure baseline server into a web application server by installing and configuring the Apache HTTP Server and PostgreSQL database server.
+You’ll start by exploring various Linux distributions and learning the differences between a number of them. You’ll then explore how the Linux operating system differs from other operating systems you may be more familiar with. With this base knowledge, you’ll then move into Linux security - covering topics such as file permissions, user management, package management and configuring firewalls. Finally, you’ll transform a safe and secure baseline server into a web application server by **installing and configuring the Apache HTTP Server and PostgreSQL database server**.
 
 ## Why Take This Course?
 
@@ -16,9 +16,9 @@ A basic understanding of linux systems administration is required to not only ge
 
 You should be comfortable with your terminal and working within a shell, if you need a refresher take a look at our Intro to the Shell.
 
-To actually get a web application up and running you should be familiar with the Python programming language and PostgreSQL. Programming Foundations with Python and Intro to Relational Databases can help you get up to speed if you feel you need some additional practice.
+To actually get a web application up and running you should be familiar with the Python programming language and PostgreSQL. [Programming Foundations with Python](https://www.udacity.com/course/ud036) and[Intro to Relational Databases](https://www.udacity.com/courses/ud197) can help you get up to speed if you feel you need some additional practice.
 
-See the Technology Requirements for using Udacity.
+See the [Technology Requirements](https://www.udacity.com/tech-requirements) for using Udacity.
 
 ## Syllabus
 
