@@ -285,6 +285,32 @@ Relative Path example is `stuff` or `/stuff` and the relative path is less time 
 
 `mv + fileName + destinationFolderOrDirectory` but mv can move multiple files at the same time like `mv + file1 + file2 + destinationFolderOrDirectory` and it very handy because you can also use `mv` to rename files, for example `mv _origFileName + newFileName` some times if you don't know how to use `mv` you mess with your files.
 
+### Clobing
+
+`ls *html`
+
+`ls app*`
+
+`ls *s`
+
+`ls *pp*`
+
+`ls b*png`
+
+`ls app.{css, html}`
+
+`ls bea?.png`
+
+`ls be??.png`
+
+`ls be[aeiou]r.png`
+
+`ls *{jpg, JPG}` because unix family like lunix and OS are case sensetive to chech for file in low-and-upper-case use the curly braces like in this command.
+
+
+
+
+
 
 
 
