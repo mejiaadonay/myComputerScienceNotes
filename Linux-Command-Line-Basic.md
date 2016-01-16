@@ -247,9 +247,44 @@ Some editor for the terminal
 *	joe
 *	nano
 
-
+`contro + option` while working with nano.
 
 # Lesson 3: The Linux Filesystem
+
+### Intro to the Filesystem
+***
+
+While developing web services on linux container or doing system working doing troubleshooting servers.
+
+### Linux filesystem
+
+** The Filesystem Tree** stores various kinds of objects.
+
+The two most common are:
+
+*	files - like text fies, images, programs, HTML files, zip files etc.
+*	directories - named containers that hold files, directories, other objects.
+
+Files in Linux can be named whatever you want and can has any special character execpt `/` but the file should be wrap it like 'Adonay!` in quote or Adonay\! the `\` should be place it before each special character, including space as well like Adonay\ Mejia 
+
+Linux does only one root filesystem at the top of the filesystem, only directory in all the filesystem. No like Windows that does different partions like c:\
+
+`pwd` print the working directory
+
+### Absolute and Relative Paths
+
+cwp is /home/otter/stuff
+
+Absolute path example is `/home/otter/stuff`
+
+Relative Path example is `stuff` or `/stuff` and the relative path is less time consumming.
+
+### Moving and copy files
+
+`mv` is the command used to move a file into another dir
+
+
+
 
 Working with files and directories is a big part of using the shell. In this lesson you'll learn basic commands for interacting with the filesystem.
 ***	
