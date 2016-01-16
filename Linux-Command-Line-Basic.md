@@ -283,6 +283,8 @@ Relative Path example is `stuff` or `/stuff` and the relative path is less time 
 
 `mv` is the command used to move a file into another dir
 
+`mv + fileName + destinationFolderOrDirectory` but mv can move multiple files at the same time like `mv + file1 + file2 + destinationFolderOrDirectory` and it very handy because you can also use `mv` to rename files, for example `mv _origFileName + newFileName` some times if you don't know how to use `mv` you mess with your files.
+
 
 
 
