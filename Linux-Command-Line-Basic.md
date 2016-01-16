@@ -235,6 +235,18 @@ To get into the manual Pages you **man** + **command_Name**
 ### Line Based Programs
 `bc` is  line based simple calculator.
 
+`less` is line based objective program. You can type `D` and `space bar` to scroll down one page at the time. `U` is use to scroll up one page at the time, and the arrows works the same way as normal. You can type the line number to go to a particular page. You can also sear for a string or work with `/wordToSearchIt`
+
+`>` to go to last line of the page/document and `<` to go to the first line.
+
+### Editing Files in nano
+
+Some editor for the terminal
+*	vim
+*	emacs
+*	joe
+*	nano
+
 
 
 # Lesson 3: The Linux Filesystem
