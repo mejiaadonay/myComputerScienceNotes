@@ -12,6 +12,13 @@
 
 * :octocat: [Linux-Command-Line-Basic](https://github.com/mejiaadonay/myComputerScienceCourseNotesIn.md-FileFormat/blob/master/Linux-Command-Line-Basic.md)
 
+* :octocat: [Programming-Foundations-With-Python](https://github.com/mejiaadonay/myComputerScienceNotes/blob/master/Python-Programming/Programming-Foundations-With-Python.md) 
+
+* :octocat: [Intro-to-Relational-Databases](https://github.com/mejiaadonay/myComputerScienceNotes/blob/master/Intro-to-Relational-Databases.md) 
+
+* :octocat: [Configuring-Linux-Web-Servers](https://github.com/mejiaadonay/myComputerScienceNotes/blob/master/Configuring-Linux-Web-Servers.md)  
+
+
 ***
 
 
