@@ -94,6 +94,15 @@ to avoid the 'int' interator problems.
 for i in range(total)
 	i++ 
 ```
+### Change Turtle Shape, Color, and Speed
+
+[1) Changing Turtle's Shape](https://docs.python.org/2/library/turtle.html#turtle.shape)
+
+[2) Changing Turtle's Color](https://docs.python.org/2/library/turtle.html#turtle.color)
+
+[3) Changing Turtle's Speed](https://docs.python.org/2/library/turtle.html#turtle.speed)
+
+[Making Turtle Code Better](http://discussions.udacity.com/t/making-turtle-code-better-f/16123)
 
 
 # Resoucers
