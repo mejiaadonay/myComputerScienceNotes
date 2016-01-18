@@ -4,32 +4,29 @@ import turtle
 # Author: Jose Escobar Mejia
 # Date:   1/18/2016
 
-def draw_square():
+def draw_square(some_turtle):
+    for i in range (1, 5):
+        some_turtle.forward(100)
+        some_turtle.right(90)
+
+def draw_art():
     window = turtle.Screen()
     window.bgcolor("red")
-
+    #Create the turtle Brad - draw a square
     brad = turtle.Turtle()
     brad.shape("turtle")
     brad.color("yellow")
     brad.speed(2)
+    draw_square(brad)
 
-    total_move = 4
-    total = 0
-
-    # This for loop is perform better than the code below.
-#    for total in range(total_move):
-#        brad.forward(100)
-#        brad.right(90)
-#    total=total+1
-
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-
-
-draw_square()
+    draw_circle()
+    
+    window.exitonclick()
+    
+def draw_circle():
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("blue")
+    angie.circle(100)
+    
+draw_art()
