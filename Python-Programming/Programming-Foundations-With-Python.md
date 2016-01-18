@@ -87,7 +87,13 @@ is really powerful in programming, abstraction is when the implentation of a giv
 ***
 ## LESSION 2a (Use Classes): Draw Turtles
 
-**No
+**Note:** it important to use range() function in a `for loop` 
+to avoid the 'int' interator problems.
+
+```
+for i in range(total)
+	i++ 
+```
 
 
 # Resoucers
