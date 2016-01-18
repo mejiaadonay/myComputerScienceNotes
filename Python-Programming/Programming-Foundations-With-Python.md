@@ -66,6 +66,20 @@ _If you have a Windows PC, please click Previous or otherwise navigate to the pr
 ***NOTE:*** In phyton the closing semicolon is not need it as use in C/C++ and JAVA. But the include or import file is similar to JAVA imports.
 ***
 
+For Windows user 
+
+```
+import os
+
+dif rename_files():
+	
+	os.listdir(r"C:\OOP\prank")
+```
+NOTE: is important to add `r` before the path to tell python to take the string as it is and don't interpreter as other way.
+
+[Documentation for the module os](https://docs.python.org/2/library/os.html)
+
+[Exceptions.](http://www.tutorialspoint.com/python/python_exceptions.htm)
 
 ### Abstraction
 is really powerful in programming, abstraction is when the implentation of a given function, or class is hidden from us as developer and as a user.
@@ -77,6 +91,8 @@ is really powerful in programming, abstraction is when the implentation of a giv
 *	[Stackoverflow - Make Python Program Wait](http://stackoverflow.com/questions/15472707/make-python-program-wait)
 
 *	[How to use a loop in Python](http://www.tutorialspoint.com/python/python_while_loop.htm)
+
+*	[tack Overflow Help Page](http://stackoverflow.com/questions/3207219/how-to-list-all-files-of-a-directory-in-python)	
 
 
 
