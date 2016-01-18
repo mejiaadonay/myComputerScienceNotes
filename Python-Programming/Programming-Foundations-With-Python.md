@@ -84,6 +84,11 @@ NOTE: is important to add `r` before the path to tell python to take the string 
 ### Abstraction
 is really powerful in programming, abstraction is when the implentation of a given function, or class is hidden from us as developer and as a user.
 
+***
+## LESSION 2a (Use Classes): Draw Turtles
+
+**No
+
 
 # Resoucers
 *	[Pymotw.com Python Program open Webbrowser](https://pymotw.com/2/webbrowser/)
