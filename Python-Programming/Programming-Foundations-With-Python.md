@@ -1,6 +1,7 @@
 # Programming Foundations with Python
 ###### Learn Object-Oriented Programming
 ***
+[**Read about Python Standard Library**](https://docs.python.org/2.7/library/index.html) but it is important to read the documentation for you Python version installed.
 
 ### Download Python (Mac)
 
@@ -62,9 +63,20 @@ _If you have a Windows PC, please click Previous or otherwise navigate to the pr
 
 # Lession 1 (Use Functions)
 
+***NOTE:*** In phyton the closing semicolon is not need it as use in C/C++ and JAVA. But the include or import file is similar to JAVA imports.
 ***
+
+
+### Abstraction
+is really powerful in programming, abstraction is when the implentation of a given function, or class is hidden from us as developer and as a user.
+
+
 # Resoucers
-*	[Pymotw.com](https://pymotw.com/2/webbrowser/)
+*	[Pymotw.com Python Program open Webbrowser](https://pymotw.com/2/webbrowser/)
+	
+*	[Stackoverflow - Make Python Program Wait](http://stackoverflow.com/questions/15472707/make-python-program-wait)
+
+*	[How to use a loop in Python](http://www.tutorialspoint.com/python/python_while_loop.htm)
 
 
 
