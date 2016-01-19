@@ -104,6 +104,13 @@ for i in range(total)
 
 [Making Turtle Code Better](http://discussions.udacity.com/t/making-turtle-code-better-f/16123)
 
+**What is a Class?**
+a class is like a blueprint can hold certain pieces of information. An object or instad of a class is like a example or copy of a class and can hold it own information.
+
+[Twilio API](http://www.twilio.com)
+***
+
+
 
 # Resoucers
 *	[Pymotw.com Python Program open Webbrowser](https://pymotw.com/2/webbrowser/)
