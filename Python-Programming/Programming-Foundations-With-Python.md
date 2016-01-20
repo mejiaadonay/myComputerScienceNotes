@@ -107,7 +107,8 @@ for i in range(total)
 **What is a Class?**
 a class is like a blueprint can hold certain pieces of information. An object or instad of a class is like a example or copy of a class and can hold it own information.
 
-[Twilio API](http://www.twilio.com)
+[Twilio Sample Code](https://www.twilio.com/docs/python/install)
+(if you scroll down to the "Testing your installation" section of this page, you can copy the code we used in this video)
 ***
 
 
