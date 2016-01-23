@@ -5,8 +5,8 @@ from twilio.rest import TwilioRestClient
 # Date:   1/22/2016
  
 # Your Account Sid and Auth Token from twilio.com/user/account
-account_sid = "AP9adea64fa812be6ba959b6cf11444949"
-auth_token  = "{{ auth_token }}"
+account_sid = "AC115149ed615980cdb9ac130cd854855a"
+auth_token  = "c13a53097d893bb1021e156f52cc955f"
 client = TwilioRestClient(account_sid, auth_token)
  
 message = client.messages.create(body="Jenny please?! I love you <3",
