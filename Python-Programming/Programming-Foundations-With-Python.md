@@ -111,7 +111,7 @@ a class is like a blueprint can hold certain pieces of information. An object or
 (if you scroll down to the "Testing your installation" section of this page, you can copy the code we used in this video)
 ***
 
-Twilio Sign up Page
+[Twilio Sign up Page](https://www.twilio.com/docs/python/install)
 
 If you can't find the SID and Auth Token, check out the Dashboard page, then click the link, "Show API Credentials"
 
