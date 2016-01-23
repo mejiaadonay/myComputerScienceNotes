@@ -1,4 +1,8 @@
 from twilio.rest import TwilioRestClient
+
+# Sent MSN
+# Author: Jose Escobar Mejia
+# Date:   1/22/2016
  
 # Your Account Sid and Auth Token from twilio.com/user/account
 account_sid = "AC32a3c49700934481addd5ce1659f04d2"
