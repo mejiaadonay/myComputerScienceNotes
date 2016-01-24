@@ -118,7 +118,7 @@ If you can't find the SID and Auth Token, check out the Dashboard page, then cli
 [How does Python Keyword from work](http://www.tutorialspoint.com/python/python_modules.htm)
 [Read the actual Twilio code on Github](https://github.com/twilio/twilio-python)
 
-**Note:** Look twilio on Github.
+**Note:** Look twilio python on Github. 
 
 
 
