@@ -116,7 +116,7 @@ a class is like a blueprint can hold certain pieces of information. An object or
 If you can't find the SID and Auth Token, check out the Dashboard page, then click the link, "Show API Credentials"
 
 [How does Python Keyword from work](http://www.tutorialspoint.com/python/python_modules.htm)
-[Read the actual Twilio code on Github]()
+[Read the actual Twilio code on Github](https://github.com/twilio/twilio-python)
 
 
 
