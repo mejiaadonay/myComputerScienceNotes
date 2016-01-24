@@ -1,4 +1,4 @@
-from twilio.rest import TwilioRestClient
+from twilio import rest
 
 # Sent MSN
 # Author: Jose Escobar Mejia
@@ -7,7 +7,7 @@ from twilio.rest import TwilioRestClient
 # Your Account Sid and Auth Token from twilio.com/user/account
 account_sid = "AC115149ed615980cdb9ac130cd854855a"
 auth_token  = "c13a53097d893bb1021e156f52cc955f"
-client = TwilioRestClient(account_sid, auth_token)
+client = rest.TwilioRestClient(account_sid, auth_token)
  
 message = client.messages.create(body="Gricelda! I love you <3",
     to="+12025006492",    # Replace with your phone number
