@@ -124,7 +124,7 @@ If you can't find the SID and Auth Token, check out the Dashboard page, then cli
  
 Please note that in order to download this file, you may need to right click on the link and select "Save Link As".
 
-2) Get the path or location of a file on a Mac
+2) [Get the path or location of a file on a Mac](https://s3.amazonaws.com/udacity-hosted-downloads/ud036/How+to+get+the+address+of+a+file+on+a+Mac.pdf)
 
 
 
