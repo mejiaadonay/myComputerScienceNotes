@@ -130,6 +130,12 @@ Please note that in order to download this file, you may need to right click on 
 
 2) [Get the path or location of a file on a Mac](https://s3.amazonaws.com/udacity-hosted-downloads/ud036/How+to+get+the+address+of+a+file+on+a+Mac.pdf)
 
+1) Using What Do You Love to check curse words
+- http://www.wdyl.com/profanity?q=shot
+
+2) In case you are curious about the things we are adding after the ? in the link or URL 
+- http://en.wikipedia.org/wiki/Query_string
+
 
 
 # Resoucers
