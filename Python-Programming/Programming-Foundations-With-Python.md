@@ -118,6 +118,10 @@ If you can't find the SID and Auth Token, check out the Dashboard page, then cli
 [How does Python Keyword from work](http://www.tutorialspoint.com/python/python_modules.htm)
 [Read the actual Twilio code on Github](https://github.com/twilio/twilio-python)
 
+Exploring Built-In Functions - Use this discussion thread to post your response.
+
+Built-in functions in Python
+
 **Note:** Look for twilio python on Github. 
 
 1) [Download the movie_quotes.txt file](https://s3.amazonaws.com/udacity-hosted-downloads/ud036/movie_quotes.txt)
