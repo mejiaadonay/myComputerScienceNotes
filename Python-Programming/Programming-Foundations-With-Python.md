@@ -142,7 +142,11 @@ Please note that in order to download this file, you may need to right click on 
 2) Pirate speech - http://isithackday.com/arrpi.php?text=friend
 (this website will convert normal text into Pirate speech
 
+# Vocabulary 
 
+* class
+* instance
+* constructor
 
 # Resoucers
 **Important Note:** For every languege you use try to find a good style guide for the language like for example [Google Style Guide for Python.](https://google.github.io/styleguide/pyguide.html) You can google style guides.
