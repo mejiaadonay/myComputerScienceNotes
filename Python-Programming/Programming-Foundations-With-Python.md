@@ -136,6 +136,12 @@ Please note that in order to download this file, you may need to right click on 
 2) In case you are curious about the things we are adding after the ? in the link or URL 
 - http://en.wikipedia.org/wiki/Query_string
 
+1) What Do You Love - http://www.wdyl.com/profanity?q=shot
+(this website will help detect curse words in a text)
+
+2) Pirate speech - http://isithackday.com/arrpi.php?text=friend
+(this website will convert normal text into Pirate speech
+
 
 
 # Resoucers
