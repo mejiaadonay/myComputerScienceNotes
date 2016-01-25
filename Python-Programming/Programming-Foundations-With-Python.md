@@ -145,9 +145,12 @@ Please note that in order to download this file, you may need to right click on 
 
 
 # Resoucers
+**Important Note:** For every languege you use try to find a good style guide for the language like for example [Google Style Guide for Python.](https://google.github.io/styleguide/pyguide.html) You can google style guides.
+
 *	[Pymotw.com Python Program open Webbrowser](https://pymotw.com/2/webbrowser/)
 	
 *	[Stackoverflow - Make Python Program Wait](http://stackoverflow.com/questions/15472707/make-python-program-wait)
+
 
 *	[How to use a loop in Python](http://www.tutorialspoint.com/python/python_while_loop.htm)
 
