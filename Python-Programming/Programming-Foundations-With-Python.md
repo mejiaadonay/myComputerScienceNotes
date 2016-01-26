@@ -148,6 +148,8 @@ Please note that in order to download this file, you may need to right click on 
 * instance
 * constructor
 * self **Note** Read about self that take the default constructor.
+* Instance Variables
+* Instance methods
 
 # Resoucers
 **Important Note:** For every languege you use try to find a good style guide for the language like for example [Google Style Guide for Python.](https://google.github.io/styleguide/pyguide.html) You can google style guides.
