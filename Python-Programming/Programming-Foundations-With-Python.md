@@ -142,6 +142,8 @@ Please note that in order to download this file, you may need to right click on 
 2) Pirate speech - http://isithackday.com/arrpi.php?text=friend
 (this website will convert normal text into Pirate speech
 
+[How to use list or arrays in Python](https://docs.python.org/2/tutorial/introduction.html#lists)
+
 # Vocabulary 
 
 * class
