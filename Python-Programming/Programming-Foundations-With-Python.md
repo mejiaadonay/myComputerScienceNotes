@@ -144,6 +144,10 @@ Please note that in order to download this file, you may need to right click on 
 
 [How to use list or arrays in Python](https://docs.python.org/2/tutorial/introduction.html#lists)
 
+# Advanced Ideas in OOP
+***
+
+
 # Vocabulary 
 
 * class
