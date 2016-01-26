@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 # Media for movie website
 # Author:   Jose Escobar Mejia
@@ -33,6 +34,8 @@ hunger_games = media.Movie(" Hunger Games", "Storyline",
                            "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                            "https://www.youtube.com/watch?v=PbA63a7H0bo" )
 
+movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+fresh_tomatoes.open_movies_page(movies)
 
 
                            
