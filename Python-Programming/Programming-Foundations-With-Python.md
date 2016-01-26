@@ -147,6 +147,8 @@ Please note that in order to download this file, you may need to right click on 
 # Advanced Ideas in OOP
 ***
 *Advanced Ideas in OOP*
+* class variables
+* 
 
 # Vocabulary 
 
