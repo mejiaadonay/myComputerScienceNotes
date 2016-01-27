@@ -148,7 +148,9 @@ Please note that in order to download this file, you may need to right click on 
 ***
 *Advanced Ideas in OOP*
 * class variables
-* 
+
+[Documentation on pre-defined variables __name __ and __module__]()
+
 
 # Vocabulary 
 
@@ -172,6 +174,7 @@ Please note that in order to download this file, you may need to right click on 
 *	[tack Overflow Help Page](http://stackoverflow.com/questions/3207219/how-to-list-all-files-of-a-directory-in-python)	
 
 *	[TutorialPoint](http://www.tutorialspoint.com)
+*	[Arrays and list are not the same in Python](http://www.wired.com/2011/08/python-notes-lists-vs-arrays/)
 
 
 
