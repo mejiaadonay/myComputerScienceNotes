@@ -18,7 +18,8 @@ class Child(Parent):
         print("Child constructor Called")
         Parent.__init__(self, last_name, eye_color)
         self.number_of_toys = number_of_toys
-
+        
+    # Method Overriding - overriding the Parent show_info() method for the Child Class.
     def show_info(self):
         print("Last Name - " + self.last_name)
         print("Eye Color - " + self.eye_color)
