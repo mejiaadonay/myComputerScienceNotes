@@ -149,7 +149,7 @@ Please note that in order to download this file, you may need to right click on 
 *Advanced Ideas in OOP*
 * class variables
 
-[Documentation on pre-defined variables __name __ and __module__]()
+[Documentation on pre-defined variables __name __ and __module__](http://www2.lib.uchicago.edu/keith/courses/python/class/5/)
 
 
 # Vocabulary 
