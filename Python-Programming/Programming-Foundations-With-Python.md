@@ -151,6 +151,8 @@ Please note that in order to download this file, you may need to right click on 
 
 [Documentation on pre-defined variables __name __ and __module__](http://www2.lib.uchicago.edu/keith/courses/python/class/5/)
 
+**Note:** You use triple quotes to wrap the documentation of a class and it is  usually placed at the next line of the class name.
+
 
 # Vocabulary 
 
