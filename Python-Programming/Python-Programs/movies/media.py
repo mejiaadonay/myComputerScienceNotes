@@ -6,6 +6,7 @@ import webbrowser
 
 # class definition
 class Movie():
+    """ This class provide a way to store movie related information """
     # VALID_RATINGS is all upper-case since it is contant class varible.
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     
