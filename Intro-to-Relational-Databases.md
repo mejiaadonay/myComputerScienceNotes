@@ -106,7 +106,8 @@ How do we structure application data?
 **Notes:**
 
 * In relational databse the data is storage in form of tables.
-*   
+
+Data type and meaning  
 
 
 ***
