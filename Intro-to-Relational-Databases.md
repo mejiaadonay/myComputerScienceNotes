@@ -53,8 +53,77 @@ See the [Technology Requirements](https://www.udacity.com/tech-requirements) for
 # Syllabus
 
 ## Lesson 1: Data and Tables
+***
 
 In this lesson, you’ll learn about how relational databases let you structure data into tables. You’ll learn about the importance of unique keys and relationships between tables.
+***
+### Welcome to RDB
+***
+* **Relational Concepts**
+***
+
+What's a database, anyway?
+
+How do we structure application data?
+
+**In memeory:**
+
+* Simple variables:
+
+	* numbers, strings
+	
+* data structures:
+
+	* lists, dictionaries, objects
+	
+* *Ephemeral, temporary*
+
+**Durable Storage:**
+
+* flat file on disk:
+
+	* text, XML, JSON
+	
+* database:
+
+	* key-value store
+	* navifational DB
+	* relational DB
+
+* *Persistent, Durable*
+
+### Relational database features:
+** All DBs**
+
+* persistem storage
+* Safe concurrent access by multiple programs/users
+
+** Relational only**
+
+* _flexible query language with aggregation and join operations_
+* _constraints - rules for protecting consistency of your data_
+
+**Notes:**
+
+* In relational databse the data is storage in form of tables.
+*   
+
+
+***
+* **SQL Queries**
+***
+
+***
+* **Python DB-API**
+***
+
+***
+* **More SQL**
+***
+
+***
+* **Final Project**
+***
 
 ## Lesson 2: _Elephants_ Elements of SQL
 
