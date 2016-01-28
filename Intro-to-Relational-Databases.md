@@ -107,7 +107,57 @@ How do we structure application data?
 
 * In relational databse the data is storage in form of tables.
 
-Data type and meaning  
+* Data type and meaning  
+
+* Data tables hold are composed of the **table header** and **table body**
+	* **table header** 
+	
+	* **table body**
+		* rows
+		* columns
+		
+		**Note:** And each row hold a value for each column.
+		
+### Aggregation
+
+**Aggragation** is simple database operation that summerize multiples rows into a single row.
+	
+### Common Aggregations in SQL
+	
+Questions and its equivalents Aggregations values.
+
+1. Hom many rows? -> **count**
+2. What's the average? -> **avg**
+3. what's the greatest? -> **max**
+4. what's the least? -> **min**
+
+### Queries and Results 
+
+1. **Querie definition and what it means in databases?**
+
+2. **Table Structue**
+
+3. **How Queries Happen?**
+	* **Your Code** ->  _Query [SQL]_ -> **database** -> _result [table]_ -> **your code**
+
+**Note:** Depending the enviroment the database can be talking to a database over the network or or can be calling a library in a local disk.
+
+**Database**
+ 
+* mySql
+* postgreSQL
+* oracle, etc
+	* [**Your code**] --> query -- **_TCP/IP Network_** --> [**DB Server**]=[**Data on disk**] --> result **_TCP/IP Network_** --> [**Your code**]
+	
+* sqlite
+	* [**Your Code**] -> <- [**DB library**]=[**Data on disk**]
+
+**NOTE:** All the Databases work the same, no matter how the different environments are implemented. They all have the same Relational Databases **RDB** principles.
+
+
+
+
+
 
 
 ***
