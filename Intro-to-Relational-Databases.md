@@ -172,13 +172,10 @@ SQL
 		diet.food
 	from animals join diet
 	on animals.species = diet.species;
+	
+	where food = 'fish';
 
 ```
-
-
-
-
-
 
 ***
 * **SQL Queries**
@@ -199,6 +196,18 @@ SQL
 ## Lesson 2: _Elephants_ Elements of SQL
 
 In this lesson, you’ll begin learning SQL, the Structured Query Language used by most relational databases. You’ll learn about the select and insert statements, the basic operations for getting data out of a database and putting data into a database. You’ll learn about the operators and syntax available to get the database to scan and join tables for you.
+***
+
+```
+	# Try out this query! You'll see the results below.
+	# You'll be seeing many more pages like this in the rest of this lesson.
+	# For now, just test it out.
+
+QUERY = '''
+select name, birthdate from animals where species = 'gorilla';
+'''
+```
+
 
 ## Lesson 3: Python DB-API
 
