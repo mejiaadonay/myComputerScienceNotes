@@ -154,7 +154,7 @@ Questions and its equivalents Aggregations values.
 
 **NOTE:** All the Databases work the same, no matter how the different environments are implemented. They all have the same Relational Databases **RDB** principles.
 
-**Related Tables**
+**Related Tables** queries that combined two tables with some piece of information from both tables make another table or **joined quierie/table**
 
 
 
