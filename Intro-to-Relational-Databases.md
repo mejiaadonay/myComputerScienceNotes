@@ -156,7 +156,7 @@ Questions and its equivalents Aggregations values.
 
 **Related Tables** queries that combined two tables with some piece of information from both tables make another table or **joined quierie/table**
 
-**Uniqueness and Keys**
+**Uniqueness and Keys** we need unique values to relate rows in one table to another.
 
 
 
