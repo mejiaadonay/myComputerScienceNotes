@@ -160,7 +160,21 @@ Questions and its equivalents Aggregations values.
 
 * we need unique values to relate rows in one table to another.
 
-* A column that uniquely identifies the rows in a table can be called a **Primary key**.
+* A column that uniquely identifies the rows in a table can be called a **Primary key**, so _Numerical IDs_.
+
+**Joining Tables**
+
+```
+SQL
+	select
+		animals.name,
+		animals.species,
+		diet.food
+	from animals join diet
+	on animals.species = diet.species;
+
+```
+
 
 
 
